@@ -32,11 +32,11 @@ const NavBar = () => {
                             <div className="menu-container">
                                 <button className="menu-trigger"></button>
                                 <div className="menu">
-                                    <ul>
-                                        <li><a href="#">Signup</a></li>
-                                        <li><a href="#">My Profile</a></li>
-                                        <li><a href="#">Reward</a></li>
-                                    </ul>
+                                    <div className="menuList">
+                                        <div><a href="#">Signup</a></div>
+                                        <div><a href="#">My Profile</a></div>
+                                        <div><a href="#">Reward</a></div>
+                                    </div>
                                 </div>
                             </div>
 
