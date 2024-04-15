@@ -23,6 +23,9 @@ const Navigation = () => {
                             className="-dOa_b XdYXbi"
                             width={12}
                             height={12}
+                            style={{ transition: 'transform 0.3s' }}
+                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(-180deg)'; }}
+                            onMouseLeave={(e) => { e.currentTarget.style.transform = 'rotate(0deg)'; }}
                         />
                     </div>
                     <div>
@@ -34,6 +37,9 @@ const Navigation = () => {
                             className="-dOa_b XdYXbi"
                             width={12}
                             height={12}
+                            style={{ transition: 'transform 0.3s' }}
+                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(-180deg)'; }}
+                            onMouseLeave={(e) => { e.currentTarget.style.transform = 'rotate(0deg)'; }}
                         />
                     </div>
                     <div>
@@ -45,6 +51,9 @@ const Navigation = () => {
                             className="-dOa_b XdYXbi"
                             width={12}
                             height={12}
+                            style={{ transition: 'transform 0.3s' }}
+                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(-180deg)'; }}
+                            onMouseLeave={(e) => { e.currentTarget.style.transform = 'rotate(0deg)'; }}
                         />
                     </div>
                     <div>
@@ -64,6 +73,9 @@ const Navigation = () => {
                             className="-dOa_b XdYXbi"
                             width={12}
                             height={12}
+                            style={{ transition: 'transform 0.3s' }}
+                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(-180deg)'; }}
+                            onMouseLeave={(e) => { e.currentTarget.style.transform = 'rotate(0deg)'; }}
                         />
                     </div>
                     <div>
@@ -76,7 +88,7 @@ const Navigation = () => {
                             width={12}
                             height={12}
                             style={{ transition: 'transform 0.3s' }}
-                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(180deg)'; }}
+                            onMouseEnter={(e) => { e.currentTarget.style.transform = 'rotate(-180deg)'; }}
                             onMouseLeave={(e) => { e.currentTarget.style.transform = 'rotate(0deg)'; }}
                         />
                     </div>
